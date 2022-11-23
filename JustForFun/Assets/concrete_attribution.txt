@@ -1,0 +1,10 @@
+Creative Commons Attribution 3.0
+--------------------------------------
+Licence url: https://creativecommons.org/licenses/by/3.0/
+
+Author of concrete_diff.tga, concrete_nor.tga and concrete_spec.tga textures is JosipKladaric. Textures were downloaded from https://opengameart.org/content/concrete-texture-0
+
+No changes were made to the original textures, except from the name of files. Original names were:
+* concrete1-dif-1024.tga
+* concrete1-nor-1024.tga
+* concrete1-spec-1024.tga

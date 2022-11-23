@@ -1,0 +1,10 @@
+Creative Commons Attribution 3.0
+--------------------------------------
+Licence url: https://creativecommons.org/licenses/by/3.0/
+
+Author of brick_wall_diff.tga, brick_wall_nor.tga and brick_wall_spec.tga textures is JosipKladaric. Textures were downloaded from https://opengameart.org/content/brick-wall.
+
+No changes were made to the original textures, except from the name of files. Original names were:
+* brick_wall2-diff-2048.tga
+* brick_wall2-nor-2048.tga
+* brick_wall2-spec-2048.tga
