@@ -1,0 +1,79 @@
+Backpack model
+------------------------------------------
+
+Model by Berk Gedik, from: https://sketchfab.com/3d-models/survival-guitar-backpack-low-poly-799f8c4511f84fab8c3f12887f7e6b36
+
+Modified material assignment (Joey de Vries) for easier load in OpenGL model loading chapter, and renamed albedo to diffuse and metallic to specular to match non-PBR lighting setup.
+
+------------------------------------------
+------------------------------------------
+
+Creative Commons Attribution 3.0
+--------------------------------------
+Licence url: https://creativecommons.org/licenses/by/3.0/
+
+Author of brick_wall_diff.tga, brick_wall_nor.tga and brick_wall_spec.tga textures is JosipKladaric. Textures were downloaded from https://opengameart.org/content/brick-wall.
+
+No changes were made to the original textures, except from the name of files. Original names were:
+* brick_wall2-diff-2048.tga
+* brick_wall2-nor-2048.tga
+* brick_wall2-spec-2048.tga
+
+Creative Commons Attribution 3.0
+--------------------------------------
+Licence url: https://creativecommons.org/licenses/by/3.0/
+
+Author of concrete_diff.tga, concrete_nor.tga and concrete_spec.tga textures is JosipKladaric. Textures were downloaded from https://opengameart.org/content/concrete-texture-0
+
+No changes were made to the original textures, except from the name of files. Original names were:
+* concrete1-dif-1024.tga
+* concrete1-nor-1024.tga
+* concrete1-spec-1024.tga
+
+------------------------------------------
+------------------------------------------
+
+The following files are downloaded from http://www.hdrlabs.com/sibl/archive.html and are under Creative Commons Attribution-Noncommercial-Share Alike 3.0 License:
+* Tropical_Beach_3k.hdr
+* Factory_Catwalk_2k.hdr
+* Milkyway_small.hdr
+
+------------------------------------------
+------------------------------------------
+
+The following files are downloaded from freepbr.com:
+* rustediron2_basecolor.png
+* rustediron2_metallic.png
+* rustediron2_normal.png
+* rustediron2_roughness.png
+
+------------------------------------------
+------------------------------------------
+
+The following files are downloaded from https://polyhaven.com/ and all of them are under CC0 (https://creativecommons.org/publicdomain/zero/1.0/deed.es_ES) license:
+
+* wasteland_clouds_puresky_4k.hdr
+* rainforest_trail_4k.hdr
+* christmas_photo_studio_01_4k.hdr
+* christmas_photo_studio_04_4k.hdr
+* blaubeuren_night_4k.hdr
+* fireplace_4k.hdr
+
+------------------------------------------
+------------------------------------------
+
+3D models downloaded in sketchfab.com:
+
+"Hover car" (https://skfb.ly/6VDnF) by Ihor SDK is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Futuristic cable car" (https://skfb.ly/oxExy) by Nazareno_rojas is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Mimi" (https://skfb.ly/ooA9E) by animanyarty is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Assault Rifle PBR" (https://skfb.ly/6WJVP) by Mamba_Negra is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Kasatka 71M - Three-bolt equipment" (https://skfb.ly/6SwTK) by Maxim Otroschenko is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
+
+"Pony Cartoon" (https://skfb.ly/APwo) by Slava Z. is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Spartan Armour MKV - Halo Reach" (https://skfb.ly/6QVvM) by McCarthy3D is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).

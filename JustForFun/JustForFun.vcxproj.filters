@@ -1,0 +1,1301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{2e3238bc-fe57-4036-92f3-eee6c0bf7914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Interfaces">
+      <UniqueIdentifier>{479380e7-bfde-4b4e-8637-e4a4f964fc7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Impl">
+      <UniqueIdentifier>{baeb2cf7-1f13-4cb5-8cd5-42d088750cb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Interfaces\Subsystems">
+      <UniqueIdentifier>{9e57053d-2422-439f-b5b5-5dace9f4e82a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Impl\Subsystems">
+      <UniqueIdentifier>{52a44937-316f-414a-babd-666d45b6ef69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO">
+      <UniqueIdentifier>{ede1c6ab-1343-4434-b20b-16453db534af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO\Impl">
+      <UniqueIdentifier>{d7e3aafa-e817-4402-85be-c3a42942fc63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO\Interfaces">
+      <UniqueIdentifier>{c4dfda4a-328f-4ac8-8133-f7de9acb9e0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TEST">
+      <UniqueIdentifier>{86cd95d0-a7a3-40cf-8d53-0f38bc4ad7f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TEST\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="TEST\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{c9ab998f-1416-4ec0-a14c-996282bd2685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Impl">
+      <UniqueIdentifier>{cc9f6143-5b83-415d-be4b-ca918172a865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Interfaces">
+      <UniqueIdentifier>{e1d49001-1ef1-4e21-a019-a7273c3f3231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{fae9c6ce-dc8b-4e41-80f9-7236831fe12a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Graph">
+      <UniqueIdentifier>{84bb3530-6288-402d-b596-b6f770635513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Graph\Impl">
+      <UniqueIdentifier>{aab7739e-596e-437a-9d62-77f437d8c4a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Graph\Interfaces">
+      <UniqueIdentifier>{b7af489a-bda9-4737-a342-a8b93d70ac59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Graph\Interfaces\Nodes">
+      <UniqueIdentifier>{db3f5760-1fbb-45b9-94a6-1bfcc7a644d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Graph\Interfaces\Graphs">
+      <UniqueIdentifier>{d171f0d2-edb5-445a-b972-6f85270849eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Graph\Impl\Nodes">
+      <UniqueIdentifier>{afa199ae-9b26-46f1-8859-bf6f68c36c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Graph\Impl\Graphs">
+      <UniqueIdentifier>{d2d98eec-76f5-4a2f-87e3-f4f4eb0fe7ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Setup">
+      <UniqueIdentifier>{c81f58fe-7f69-4c1c-a802-d156d4baa423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Graph\Interfaces\Algorithms">
+      <UniqueIdentifier>{244c58fb-6af6-4b2e-bd35-3863aeaff55d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Graph\Impl\Algorithms">
+      <UniqueIdentifier>{212b13a7-623a-4ffc-9dc5-061a1aa241e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{244f1477-aaf8-48bc-9a53-f565a2dcc27c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Impl">
+      <UniqueIdentifier>{c98dd375-58ac-448c-b759-8f81db738762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Interfaces">
+      <UniqueIdentifier>{a18888fb-ddb9-4c28-9d9f-b028ff21d1b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Interfaces\Components">
+      <UniqueIdentifier>{23368726-f847-48c7-9330-b857ba42e560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Impl\Components">
+      <UniqueIdentifier>{b8604c83-f34a-4ae2-ad76-23d0e6b73a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{c1704ec1-5ec1-4d8b-8827-bc813412dc9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl">
+      <UniqueIdentifier>{1b8874d7-1601-4868-a1c6-53675826ed11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Interfaces">
+      <UniqueIdentifier>{1ed2dcbb-4ad8-494f-b873-2627d5761053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms;glsl</Extensions>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{8f40a1ab-c33f-4370-9ab7-e973d66a62c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Impl">
+      <UniqueIdentifier>{c3740f34-4ee9-46ce-9927-31e277a61c12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Interfaces">
+      <UniqueIdentifier>{611af6e2-b489-419a-91dc-ec6be92b3946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Impl\InputBindings">
+      <UniqueIdentifier>{e725bcac-7472-4648-a0a5-5ec2ebd2ca51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Impl\InputBehaviors">
+      <UniqueIdentifier>{9a40698e-c2f0-4d77-902d-e87e944116c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Interfaces\InputActions">
+      <UniqueIdentifier>{0965a796-57a6-47b0-bd22-c48a80b6bfa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Interfaces\InputBehaviors">
+      <UniqueIdentifier>{3e1fe993-a74b-471a-80aa-7fb89c0a9fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Interfaces\InputBindings">
+      <UniqueIdentifier>{dfeac969-c655-4992-8442-237ff4e2b5eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Impl\InputActions">
+      <UniqueIdentifier>{9e518e24-e0a9-4b30-a9d4-a6ce5b9f3bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Interfaces\InputProcessors">
+      <UniqueIdentifier>{a25ce16b-9213-410b-9624-aab969ec1976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Impl\InputProcessors">
+      <UniqueIdentifier>{70920a5d-9014-40fb-ad8b-c949cca40ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Interfaces\Abstract Components">
+      <UniqueIdentifier>{7957d9bc-bb7d-485d-968f-933e3ab7c86e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cache">
+      <UniqueIdentifier>{ee1ee32a-b65f-418c-9fdc-452dd9ba4ce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cache\Interfaces">
+      <UniqueIdentifier>{bf0a5105-26aa-46b8-921c-9a382f886071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\RenderPasses">
+      <UniqueIdentifier>{167f0384-8773-4490-9f82-ef776575c2b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\CodeBuilders">
+      <UniqueIdentifier>{a044e10e-a97c-4b2a-a597-cc8e0b001e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures">
+      <UniqueIdentifier>{ffd1764b-5343-4af9-a1e4-65fd8a008208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Cubemaps">
+      <UniqueIdentifier>{d743b6f8-d1cb-488c-840e-583a2f79c2bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Materials">
+      <UniqueIdentifier>{96d14fc4-a630-4728-ad42-402eb5b910d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Config">
+      <UniqueIdentifier>{839aeb3e-12f8-4a0d-8905-2570524062c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Models">
+      <UniqueIdentifier>{7edebb96-bb78-4e0b-9297-ed4b40a10831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Templates">
+      <UniqueIdentifier>{f8430761-ce07-4937-9e29-515d40054f19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\CodeBuilders\MaterialFunction">
+      <UniqueIdentifier>{6bbdc8e7-e939-45e6-a67d-980eb8b7eb26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\CodeBuilders\ShadowCast">
+      <UniqueIdentifier>{0fbcaaa6-6d01-4fbe-986a-2a006550c671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\CodeBuilders\Helpers">
+      <UniqueIdentifier>{9ec4f3cd-88ea-4b25-9781-652e8e0002a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\PostProcessFX">
+      <UniqueIdentifier>{6311c2ca-3fac-4926-896b-e4a95b74437e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\RenderPasses\Deferred">
+      <UniqueIdentifier>{e25fb8a4-52bd-4ff5-a337-27fcdac846cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\RenderPasses\Forward">
+      <UniqueIdentifier>{da8c8fab-dfab-4dd8-a84f-37c73b490d91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\RenderPasses\Deferred\Impl">
+      <UniqueIdentifier>{2301d2b1-2b98-4fc5-a912-422f8b89ae22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\RenderPasses\Deferred\Interfaces">
+      <UniqueIdentifier>{237e5c38-0820-4185-a710-93ec19d7dde7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\RenderPasses\Forward\Impl">
+      <UniqueIdentifier>{e230f745-91d3-4cbe-9a8d-ddfbb0a28307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\RenderPasses\Forward\Interfaces">
+      <UniqueIdentifier>{7b348903-deb6-412c-907b-7616735627db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\CodeBuilders\Helpers\Impl">
+      <UniqueIdentifier>{f188ddcc-351f-4127-8d0b-6d456814f02c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\CodeBuilders\Helpers\Interfaces">
+      <UniqueIdentifier>{9a2d8fd8-9513-469c-a0e6-7e4361c83bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\CodeBuilders\PostProcessFX">
+      <UniqueIdentifier>{dcb53d0f-e16b-41d1-8567-b3f3f95df66f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\CodeBuilders\Postprocess">
+      <UniqueIdentifier>{636c7bab-753e-4794-8314-a5c380c7c5b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\CodeBuilders\Postprocess\Impl">
+      <UniqueIdentifier>{320a6916-af7e-4082-a161-d757db69d469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\CodeBuilders\Postprocess\Interfaces">
+      <UniqueIdentifier>{7bd66e7e-52a8-4930-ac55-755280ab7eaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\CodeBuilders\Preprocess">
+      <UniqueIdentifier>{10f3e06c-38ce-45d9-8994-9f9163f4899d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\CodeBuilders\Preprocess\Forward">
+      <UniqueIdentifier>{846e1dd8-8011-4b6b-bd4e-b8f7e7114438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\CodeBuilders\Preprocess\Forward\Interfaces">
+      <UniqueIdentifier>{fceb7bfb-d2b3-4e41-8dd6-13052ee3eea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\CodeBuilders\Preprocess\Forward\Impl">
+      <UniqueIdentifier>{8d92439b-f90c-48b4-b262-ce52bbec02db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\CodeBuilders\Preprocess\Deferred">
+      <UniqueIdentifier>{ea65871c-a32b-4b0a-b68e-5fd0ffad82c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\CodeBuilders\Preprocess\Deferred\Interfaces">
+      <UniqueIdentifier>{00ed8061-5bba-40c9-88c5-9973f5bfb1a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\CodeBuilders\Preprocess\Deferred\Impl">
+      <UniqueIdentifier>{e5fa559c-1359-45bc-be83-d7bc94968c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Impl\HelperPreprocess">
+      <UniqueIdentifier>{37373a6d-6697-48fb-8684-a2296a64764e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Models\HoverCar">
+      <UniqueIdentifier>{f8cc73ce-87c9-43b0-b8ae-02ff365243b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Models\Mimi">
+      <UniqueIdentifier>{8755fb81-ec35-4377-912b-9497c74f4793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Models\Rifle">
+      <UniqueIdentifier>{d9424ec1-0df1-4ef4-8606-51bb114db8ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Models\CartoonCar">
+      <UniqueIdentifier>{33420a98-db2e-441a-943b-4c93372252d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>TEST\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLCamera.cpp">
+      <Filter>TEST\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLCamera2.cpp">
+      <Filter>TEST\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Core\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeSTD.cpp">
+      <Filter>Core\Impl\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="ContextGLFW.cpp">
+      <Filter>Core\Impl\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="InputGLFW.cpp">
+      <Filter>Core\Impl\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicSTD.cpp">
+      <Filter>Core\Impl\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsBullet.cpp">
+      <Filter>Core\Impl\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererGL.cpp">
+      <Filter>Core\Impl\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="IOSTD.cpp">
+      <Filter>Core\Impl\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSTD.cpp">
+      <Filter>IO\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>IO\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSTBI.cpp">
+      <Filter>IO\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelAssimp.cpp">
+      <Filter>IO\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="MathGLM.cpp">
+      <Filter>Core\Impl\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Utils\Graph\Impl\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="VecGLM.cpp">
+      <Filter>Math\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="MatGLM.cpp">
+      <Filter>Math\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Logic\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Logic\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Logic\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformComponent.cpp">
+      <Filter>Logic\Impl\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderComponent.cpp">
+      <Filter>Logic\Impl\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialGL.cpp">
+      <Filter>Renderer\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureGLSTBI.cpp">
+      <Filter>Renderer\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="TESTComponent.cpp">
+      <Filter>TEST\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="INIFileMINI.cpp">
+      <Filter>IO\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Core\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraSTD.cpp">
+      <Filter>Core\Impl\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraComponentGL.cpp">
+      <Filter>Logic\Impl\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TESTComponent2.cpp">
+      <Filter>TEST\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TESTCam.cpp">
+      <Filter>TEST\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputBindingAxesGLFW.cpp">
+      <Filter>Input\Impl\InputBindings</Filter>
+    </ClCompile>
+    <ClCompile Include="InputBindingButtonGLFW.cpp">
+      <Filter>Input\Impl\InputBindings</Filter>
+    </ClCompile>
+    <ClCompile Include="InputBindingTriggerGLFW.cpp">
+      <Filter>Input\Impl\InputBindings</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCamInputComponent.cpp">
+      <Filter>Logic\Impl\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLightComponent.cpp">
+      <Filter>Logic\Impl\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLightComponent.cpp">
+      <Filter>Logic\Impl\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLightComponent.cpp">
+      <Filter>Logic\Impl\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Renderer\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Renderer\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="CacheSTD.cpp">
+      <Filter>Core\Impl\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>IO\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="CubemapGLSTBI.cpp">
+      <Filter>Renderer\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Cubemap.cpp">
+      <Filter>Renderer\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectionProbeComponent.cpp">
+      <Filter>Logic\Impl\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilder.cpp">
+      <Filter>Renderer\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessRenderComponent.cpp">
+      <Filter>Logic\Impl\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="FramebufferGLSTBI.cpp">
+      <Filter>Renderer\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialFunctionCodeBuilderGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\MaterialFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderShadowCastGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\ShadowCast</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderOmnidirectionalShadowCastGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\ShadowCast</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessFXBloom.cpp">
+      <Filter>Renderer\Impl\PostProcessFX</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderDirectionalLightingDeferredBlinnPhongGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Deferred\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderEnvironmentLightingDeferredBlinnPhongGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Deferred\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderGeometryDeferredBlinnPhongGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Deferred\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderPointLightingDeferredBlinnPhongGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Deferred\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderSpotLightingDeferredBlinnPhongGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Deferred\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderBackgroundGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Forward\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderBlinnPhongGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Forward\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderDebugGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Forward\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderGouraudGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Forward\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderPBRGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Forward\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderPhongGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Forward\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderUnlitGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Forward\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPassDirectionalLightingDeferred.cpp">
+      <Filter>Renderer\Impl\RenderPasses\Deferred\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPassEnvironmentLightingDeferred.cpp">
+      <Filter>Renderer\Impl\RenderPasses\Deferred\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPassGeometryDeferred.cpp">
+      <Filter>Renderer\Impl\RenderPasses\Deferred\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPassPointLightingDeferred.cpp">
+      <Filter>Renderer\Impl\RenderPasses\Deferred\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPassSpotLightingDeferred.cpp">
+      <Filter>Renderer\Impl\RenderPasses\Deferred\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPassBackground.cpp">
+      <Filter>Renderer\Impl\RenderPasses\Forward\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPassDebug.cpp">
+      <Filter>Renderer\Impl\RenderPasses\Forward\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPassPostProcess.cpp">
+      <Filter>Renderer\Impl\RenderPasses\Forward\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPassRenderToScreen.cpp">
+      <Filter>Renderer\Impl\RenderPasses\Forward\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPassShadowCast.cpp">
+      <Filter>Renderer\Impl\RenderPasses\Forward\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPassSurface.cpp">
+      <Filter>Renderer\Impl\RenderPasses\Forward\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPassTranslucent.cpp">
+      <Filter>Renderer\Impl\RenderPasses\Forward\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPassUI.cpp">
+      <Filter>Renderer\Impl\RenderPasses\Forward\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPassEmissiveLightingDeferred.cpp">
+      <Filter>Renderer\Impl\RenderPasses\Deferred\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderEmissiveLightingDeferredBlinnPhongGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Deferred\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderColorAdditionGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Helpers\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderColorCopyGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Helpers\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderGaussianBlurHorizontalGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Helpers\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderGaussianBlurVerticalGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Helpers\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderHighPassFilterGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Helpers\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderPostProcessGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Postprocess\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderRenderToScreenGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Postprocess\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderUIGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Postprocess\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderSSAOGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\PostProcessFX</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessFXSSAO.cpp">
+      <Filter>Renderer\Impl\PostProcessFX</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageRawSTD.cpp">
+      <Filter>IO\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPassPostProcessPreLighting.cpp">
+      <Filter>Renderer\Impl\RenderPasses\Forward\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image_write.cpp">
+      <Filter>IO\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="PreprocessEquirectangularToCubemap.cpp">
+      <Filter>Renderer\Impl\HelperPreprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderEquirectangularToCubemapGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Helpers\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshObjectGL.cpp">
+      <Filter>Renderer\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshComponent.cpp">
+      <Filter>Logic\Impl\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderIrradianceGeneratorGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Helpers\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="PreprocessIrradianceGenerator.cpp">
+      <Filter>Renderer\Impl\HelperPreprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderPreFilteredEnvironmentMapGeneratorGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Helpers\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="PreprocessPreFilteredEnvironmentMapGenerator.cpp">
+      <Filter>Renderer\Impl\HelperPreprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="PreprocessBRDFIntegrationMapGenerator.cpp">
+      <Filter>Renderer\Impl\HelperPreprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCodeBuilderBRDFIntegrationMapGeneratorGL.cpp">
+      <Filter>Renderer\Impl\CodeBuilders\Helpers\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenarioSwitcherComponent.cpp">
+      <Filter>TEST\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLCamera.h">
+      <Filter>TEST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLCamera2.h">
+      <Filter>TEST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExecutableSubsystem.h">
+      <Filter>Core\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Core\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Subsystem.h">
+      <Filter>Core\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ExecutableSubsystemSet.h">
+      <Filter>Core\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>Core\Interfaces\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Core\Interfaces\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic.h">
+      <Filter>Core\Interfaces\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Core\Interfaces\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Core\Interfaces\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Core\Interfaces\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSTD.h">
+      <Filter>Core\Impl\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="ContextGLFW.h">
+      <Filter>Core\Impl\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="InputGLFW.h">
+      <Filter>Core\Impl\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicSTD.h">
+      <Filter>Core\Impl\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsBullet.h">
+      <Filter>Core\Impl\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererGL.h">
+      <Filter>Core\Impl\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Core\Interfaces\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="IO.h">
+      <Filter>Core\Interfaces\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Renderer\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>IO\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>IO\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IOSTD.h">
+      <Filter>Core\Impl\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSTD.h">
+      <Filter>IO\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>IO\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSTBI.h">
+      <Filter>IO\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>IO\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelAssimp.h">
+      <Filter>IO\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="MathGLM.h">
+      <Filter>Core\Impl\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="EdgeBase.h">
+      <Filter>Utils\Graph\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeBase.h">
+      <Filter>Utils\Graph\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphBase.h">
+      <Filter>Utils\Graph\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Utils\Graph\Interfaces\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleGraph.h">
+      <Filter>Utils\Graph\Interfaces\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeGraph.h">
+      <Filter>Utils\Graph\Interfaces\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec.h">
+      <Filter>Math\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Setup.h">
+      <Filter>Core\Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="VecSetup.h">
+      <Filter>Core\Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Core\Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Mat.h">
+      <Filter>Math\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="MatSetup.h">
+      <Filter>Core\Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphAlgorithm.h">
+      <Filter>Utils\Graph\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="DFSAlgorithm.h">
+      <Filter>Utils\Graph\Interfaces\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Logic\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Logic\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Logic\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>Logic\Interfaces\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectedNodeBase.h">
+      <Filter>Utils\Graph\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectedNode.h">
+      <Filter>Utils\Graph\Interfaces\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPass.h">
+      <Filter>Renderer\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderComponent.h">
+      <Filter>Logic\Interfaces\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Renderer\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialGL.h">
+      <Filter>Renderer\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Renderer\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="DestructibleSubsystemSet.h">
+      <Filter>Core\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureGLSTBI.h">
+      <Filter>Renderer\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="TESTComponent.h">
+      <Filter>TEST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mINI.h">
+      <Filter>IO\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystemSetup.h">
+      <Filter>Core\Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="INIFile.h">
+      <Filter>IO\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="INIFileMINI.h">
+      <Filter>IO\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Core\Interfaces\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraSTD.h">
+      <Filter>Core\Impl\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="TESTComponent2.h">
+      <Filter>TEST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TESTCam.h">
+      <Filter>TEST\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputActionBase.h">
+      <Filter>Input\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBindingAxesGLFW.h">
+      <Filter>Input\Impl\InputBindings</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBindingButtonGLFW.h">
+      <Filter>Input\Impl\InputBindings</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBindingTriggerGLFW.h">
+      <Filter>Input\Impl\InputBindings</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBindingBase.h">
+      <Filter>Input\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMappingSetup.h">
+      <Filter>Core\Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCamInputComponent.h">
+      <Filter>Logic\Interfaces\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="InputAction.h">
+      <Filter>Input\Interfaces\InputActions</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBehavior.h">
+      <Filter>Input\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBinding.h">
+      <Filter>Input\Interfaces\InputBindings</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBehaviorPress.h">
+      <Filter>Input\Interfaces\InputBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBehaviorHold.h">
+      <Filter>Input\Interfaces\InputBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBehaviorMultipress.h">
+      <Filter>Input\Interfaces\InputBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="InputProcessor.h">
+      <Filter>Input\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="InputProcessorInverter.h">
+      <Filter>Input\Interfaces\InputProcessors</Filter>
+    </ClInclude>
+    <ClInclude Include="InputProcessorNormalizer.h">
+      <Filter>Input\Interfaces\InputProcessors</Filter>
+    </ClInclude>
+    <ClInclude Include="InputProcessorDeadZone.h">
+      <Filter>Input\Interfaces\InputProcessors</Filter>
+    </ClInclude>
+    <ClInclude Include="InputComponent.h">
+      <Filter>Logic\Interfaces\Abstract Components</Filter>
+    </ClInclude>
+    <ClInclude Include="LightComponent.h">
+      <Filter>Logic\Interfaces\Abstract Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h">
+      <Filter>Logic\Interfaces\Abstract Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLightComponent.h">
+      <Filter>Logic\Interfaces\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLightComponent.h">
+      <Filter>Logic\Interfaces\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLightComponent.h">
+      <Filter>Logic\Interfaces\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilder.h">
+      <Filter>Renderer\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Cache.h">
+      <Filter>Core\Interfaces\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Cacheable.h">
+      <Filter>Cache\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CacheSTD.h">
+      <Filter>Core\Impl\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Framebuffer.h">
+      <Filter>Renderer\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Cubemap.h">
+      <Filter>Renderer\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CubemapGLSTBI.h">
+      <Filter>Renderer\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="EnvironmentMapComponent.h">
+      <Filter>Logic\Interfaces\Abstract Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionProbeComponent.h">
+      <Filter>Logic\Interfaces\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponent.h">
+      <Filter>Logic\Interfaces\Abstract Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponentGL.h">
+      <Filter>Logic\Impl\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialFunctionCodeBuilder.h">
+      <Filter>Renderer\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessRenderComponent.h">
+      <Filter>Logic\Interfaces\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="FramebufferGLSTBI.h">
+      <Filter>Renderer\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialFunctionCodeBuilderGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\MaterialFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderShadowCastGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\ShadowCast</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderOmnidirectionalShadowCastGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\ShadowCast</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessFX.h">
+      <Filter>Renderer\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessFXBloom.h">
+      <Filter>Renderer\Impl\PostProcessFX</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderDirectionalLightingDeferredBlinnPhongGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Deferred\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderEnvironmentLightingDeferredBlinnPhongGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Deferred\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderGeometryDeferredBlinnPhongGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Deferred\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderPointLightingDeferredBlinnPhongGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Deferred\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderSpotLightingDeferredBlinnPhongGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Deferred\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderBackgroundGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Forward\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderBlinnPhongGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Forward\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderDebugGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Forward\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderGouraudGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Forward\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderPBRGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Forward\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderPhongGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Forward\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderUnlitGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Forward\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPassDirectionalLightingDeferred.h">
+      <Filter>Renderer\Impl\RenderPasses\Deferred\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPassEnvironmentLightingDeferred.h">
+      <Filter>Renderer\Impl\RenderPasses\Deferred\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPassPointLightingDeferred.h">
+      <Filter>Renderer\Impl\RenderPasses\Deferred\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPassGeometryDeferred.h">
+      <Filter>Renderer\Impl\RenderPasses\Deferred\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPassSpotLightingDeferred.h">
+      <Filter>Renderer\Impl\RenderPasses\Deferred\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPassBackground.h">
+      <Filter>Renderer\Impl\RenderPasses\Forward\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPassDebug.h">
+      <Filter>Renderer\Impl\RenderPasses\Forward\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPassPostProcess.h">
+      <Filter>Renderer\Impl\RenderPasses\Forward\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPassRenderToScreen.h">
+      <Filter>Renderer\Impl\RenderPasses\Forward\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPassShadowCast.h">
+      <Filter>Renderer\Impl\RenderPasses\Forward\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPassSurface.h">
+      <Filter>Renderer\Impl\RenderPasses\Forward\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPassTranslucent.h">
+      <Filter>Renderer\Impl\RenderPasses\Forward\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPassUI.h">
+      <Filter>Renderer\Impl\RenderPasses\Forward\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPassEmissiveLightingDeferred.h">
+      <Filter>Renderer\Impl\RenderPasses\Deferred\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderEmissiveLightingDeferredBlinnPhongGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Preprocess\Deferred\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderColorAdditionGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Helpers\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderColorCopyGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Helpers\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderGaussianBlurHorizontalGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Helpers\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderGaussianBlurVerticalGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Helpers\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderHighPassFilterGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Helpers\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderPostProcessGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Postprocess\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderRenderToScreenGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Postprocess\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderUIGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Postprocess\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderSSAOGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\PostProcessFX</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessFXSSAO.h">
+      <Filter>Renderer\Impl\PostProcessFX</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageRawSTD.h">
+      <Filter>IO\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPassPostProcessPreLighting.h">
+      <Filter>Renderer\Impl\RenderPasses\Forward\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image_write.h">
+      <Filter>IO\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Saveable.h">
+      <Filter>IO\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Preprocess.h">
+      <Filter>Renderer\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="PreprocessEquirectangularToCubemap.h">
+      <Filter>Renderer\Impl\HelperPreprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderEquirectangularToCubemapGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Helpers\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshObject.h">
+      <Filter>Renderer\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshObjectGL.h">
+      <Filter>Renderer\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshComponent.h">
+      <Filter>Logic\Interfaces\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderIrradianceGeneratorGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Helpers\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="PreprocessIrradianceGenerator.h">
+      <Filter>Renderer\Impl\HelperPreprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderPreFilteredEnvironmentMapGeneratorGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Helpers\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="PreprocessPreFilteredEnvironmentMapGenerator.h">
+      <Filter>Renderer\Impl\HelperPreprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="PreprocessBRDFIntegrationMapGenerator.h">
+      <Filter>Renderer\Impl\HelperPreprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderBRDFIntegrationMapGeneratorGL.h">
+      <Filter>Renderer\Impl\CodeBuilders\Helpers\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenarioSwitcherComponent.h">
+      <Filter>TEST\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Engine.inl">
+      <Filter>Core\Impl</Filter>
+    </None>
+    <None Include="GraphBase.inl">
+      <Filter>Utils\Graph\Impl</Filter>
+    </None>
+    <None Include="SimpleGraph.inl">
+      <Filter>Utils\Graph\Impl\Graphs</Filter>
+    </None>
+    <None Include="TreeGraph.inl">
+      <Filter>Utils\Graph\Impl\Graphs</Filter>
+    </None>
+    <None Include="VecGLM.inl">
+      <Filter>Math\Impl</Filter>
+    </None>
+    <None Include="MatGLM.inl">
+      <Filter>Math\Impl</Filter>
+    </None>
+    <None Include="DFSAlgorithm.inl">
+      <Filter>Utils\Graph\Impl\Algorithms</Filter>
+    </None>
+    <None Include="NodeBase.inl">
+      <Filter>Utils\Graph\Impl</Filter>
+    </None>
+    <None Include="DirectedNodeBase.inl">
+      <Filter>Utils\Graph\Impl</Filter>
+    </None>
+    <None Include="EdgeBase.inl">
+      <Filter>Utils\Graph\Impl</Filter>
+    </None>
+    <None Include="GameObject.inl">
+      <Filter>Logic\Impl</Filter>
+    </None>
+    <None Include="InputBinding.inl">
+      <Filter>Input\Impl\InputBindings</Filter>
+    </None>
+    <None Include="InputAction.inl">
+      <Filter>Input\Impl\InputActions</Filter>
+    </None>
+    <None Include="InputBehaviorHold.inl">
+      <Filter>Input\Impl\InputBehaviors</Filter>
+    </None>
+    <None Include="InputBehaviorMultipress.inl">
+      <Filter>Input\Impl\InputBehaviors</Filter>
+    </None>
+    <None Include="InputBehaviorPress.inl">
+      <Filter>Input\Impl\InputBehaviors</Filter>
+    </None>
+    <None Include="InputProcessorDeadZone.inl">
+      <Filter>Input\Impl\InputProcessors</Filter>
+    </None>
+    <None Include="InputProcessorInverter.inl">
+      <Filter>Input\Impl\InputProcessors</Filter>
+    </None>
+    <None Include="InputProcessorNormalizer.inl">
+      <Filter>Input\Impl\InputProcessors</Filter>
+    </None>
+    <None Include="Assets\Materials\BrickWall.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Materials\BrickWallBump.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Materials\Concrete.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Materials\Glass.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Materials\Gouraud.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Materials\Material_Debug.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Materials\PBR_RustedIron.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Materials\PBR_simple_glossy.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Materials\PBR_simple_glossy_specular_workflow.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Materials\PBR_simple_plastic.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Materials\PBR_simple_polish_metal.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Materials\PBR_simple_rough_metal.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Materials\PostProcess.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Materials\SimpleBlinnPhong.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Materials\SimpleUnlit.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Materials\Skybox_Beach.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Materials\Skybox_Factory.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Materials\Skybox_House.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Materials\Skybox_Park.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Textures\brick_wall_diff.tex.ini">
+      <Filter>Assets\Textures</Filter>
+    </None>
+    <None Include="Assets\Textures\brick_wall_nor.tex.ini">
+      <Filter>Assets\Textures</Filter>
+    </None>
+    <None Include="Assets\Textures\brick_wall_spec.tex.ini">
+      <Filter>Assets\Textures</Filter>
+    </None>
+    <None Include="Assets\Textures\concrete_diff.tex.ini">
+      <Filter>Assets\Textures</Filter>
+    </None>
+    <None Include="Assets\Textures\concrete_nor.tex.ini">
+      <Filter>Assets\Textures</Filter>
+    </None>
+    <None Include="Assets\Textures\concrete_spec.tex.ini">
+      <Filter>Assets\Textures</Filter>
+    </None>
+    <None Include="Assets\Textures\RustedIron_base_color_PBR.tex.ini">
+      <Filter>Assets\Textures</Filter>
+    </None>
+    <None Include="Assets\Textures\RustedIron_metallic_PBR.tex.ini">
+      <Filter>Assets\Textures</Filter>
+    </None>
+    <None Include="Assets\Textures\RustedIron_normal_PBR.tex.ini">
+      <Filter>Assets\Textures</Filter>
+    </None>
+    <None Include="Assets\Textures\RustedIron_roughness_PBR.tex.ini">
+      <Filter>Assets\Textures</Filter>
+    </None>
+    <None Include="Assets\Textures\test_bricks_diff.tex.ini">
+      <Filter>Assets\Textures</Filter>
+    </None>
+    <None Include="Assets\Textures\test_bricks_disp.tex.ini">
+      <Filter>Assets\Textures</Filter>
+    </None>
+    <None Include="Assets\Textures\test_bricks_height.tex.ini">
+      <Filter>Assets\Textures</Filter>
+    </None>
+    <None Include="Assets\Textures\test_bricks_normal.tex.ini">
+      <Filter>Assets\Textures</Filter>
+    </None>
+    <None Include="Assets\Models\HoverCar\hover_car.3d.ini">
+      <Filter>Assets\Models\HoverCar</Filter>
+    </None>
+    <None Include="Assets\Models\HoverCar\hover_car_base_color.tex.ini">
+      <Filter>Assets\Models\HoverCar</Filter>
+    </None>
+    <None Include="Assets\Models\HoverCar\hover_car_emissive.tex.ini">
+      <Filter>Assets\Models\HoverCar</Filter>
+    </None>
+    <None Include="Assets\Models\HoverCar\hover_car_height.tex.ini">
+      <Filter>Assets\Models\HoverCar</Filter>
+    </None>
+    <None Include="Assets\Models\HoverCar\hover_car_metallic.tex.ini">
+      <Filter>Assets\Models\HoverCar</Filter>
+    </None>
+    <None Include="Assets\Models\HoverCar\hover_car_normal.tex.ini">
+      <Filter>Assets\Models\HoverCar</Filter>
+    </None>
+    <None Include="Assets\Models\HoverCar\hover_car_roughness.tex.ini">
+      <Filter>Assets\Models\HoverCar</Filter>
+    </None>
+    <None Include="Assets\Skyboxes\PureSky.cube.ini">
+      <Filter>Assets\Cubemaps</Filter>
+    </None>
+    <None Include="Assets\Materials\Skybox_PureSky.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Config\Engine.ini">
+      <Filter>Assets\Config</Filter>
+    </None>
+    <None Include="Assets\Config\Input.ini">
+      <Filter>Assets\Config</Filter>
+    </None>
+    <None Include="Assets\Materials\Skybox_Rainforest.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Materials\Skybox_Christmas.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Skyboxes\Factory.cube.ini">
+      <Filter>Assets\Cubemaps</Filter>
+    </None>
+    <None Include="Assets\Materials\Skybox_Christmas2.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Materials\Skybox_Blaubeuren.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Materials\Skybox_Fireplace.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Materials\Skybox_Milkyway.mat.ini">
+      <Filter>Assets\Materials</Filter>
+    </None>
+    <None Include="Assets\Models\Mimi\mimi.3d.ini">
+      <Filter>Assets\Models\Mimi</Filter>
+    </None>
+    <None Include="Assets\Models\Rifle\rifle.3d.ini">
+      <Filter>Assets\Models\Rifle</Filter>
+    </None>
+    <None Include="Assets\Models\Rifle\rifle_ao.tex.ini">
+      <Filter>Assets\Models\Rifle</Filter>
+    </None>
+    <None Include="Assets\Models\Rifle\rifle_base_color.tex.ini">
+      <Filter>Assets\Models\Rifle</Filter>
+    </None>
+    <None Include="Assets\Models\Rifle\rifle_metallic.tex.ini">
+      <Filter>Assets\Models\Rifle</Filter>
+    </None>
+    <None Include="Assets\Models\Rifle\rifle_normal.tex.ini">
+      <Filter>Assets\Models\Rifle</Filter>
+    </None>
+    <None Include="Assets\Models\Rifle\rifle_roughness.tex.ini">
+      <Filter>Assets\Models\Rifle</Filter>
+    </None>
+    <None Include="Assets\Models\CartoonCar\cartoon_car.3d.ini">
+      <Filter>Assets\Models\CartoonCar</Filter>
+    </None>
+  </ItemGroup>
+</Project>

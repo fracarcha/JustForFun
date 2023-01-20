@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CacheSTD.cpp" />
+    <ClCompile Include="CameraComponentGL.cpp" />
+    <ClCompile Include="CameraSTD.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="ContextGLFW.cpp" />
+    <None Include="Assets\Config\Engine.ini" />
+    <None Include="Assets\Config\Input.ini" />
+    <None Include="Assets\Materials\BrickWall.mat.ini" />
+    <None Include="Assets\Materials\BrickWallBump.mat.ini" />
+    <None Include="Assets\Materials\Concrete.mat.ini" />
+    <None Include="Assets\Materials\Glass.mat.ini" />
+    <None Include="Assets\Materials\Gouraud.mat.ini" />
+    <None Include="Assets\Materials\Material_Debug.mat.ini" />
+    <None Include="Assets\Materials\PBR_RustedIron.mat.ini" />
+    <None Include="Assets\Materials\PBR_simple_glossy.mat.ini" />
+    <None Include="Assets\Materials\PBR_simple_glossy_specular_workflow.mat.ini" />
+    <None Include="Assets\Materials\PBR_simple_plastic.mat.ini" />
+    <None Include="Assets\Materials\PBR_simple_polish_metal.mat.ini" />
+    <None Include="Assets\Materials\PBR_simple_rough_metal.mat.ini" />
+    <None Include="Assets\Materials\PostProcess.mat.ini" />
+    <None Include="Assets\Materials\SimpleBlinnPhong.mat.ini" />
+    <None Include="Assets\Materials\SimpleUnlit.mat.ini" />
+    <None Include="Assets\Materials\Skybox_Beach.mat.ini" />
+    <None Include="Assets\Materials\Skybox_Blaubeuren.mat.ini" />
+    <None Include="Assets\Materials\Skybox_Christmas.mat.ini" />
+    <None Include="Assets\Materials\Skybox_Christmas2.mat.ini" />
+    <None Include="Assets\Materials\Skybox_Factory.mat.ini" />
+    <None Include="Assets\Materials\Skybox_Fireplace.mat.ini" />
+    <None Include="Assets\Materials\Skybox_House.mat.ini" />
+    <None Include="Assets\Materials\Skybox_Milkyway.mat.ini" />
+    <None Include="Assets\Materials\Skybox_Park.mat.ini" />
+    <None Include="Assets\Materials\Skybox_PureSky.mat.ini" />
+    <None Include="Assets\Materials\Skybox_Rainforest.mat.ini" />
+    <None Include="Assets\Models\CartoonCar\cartoon_car.3d.ini" />
+    <None Include="Assets\Models\HoverCar\hover_car.3d.ini" />
+    <None Include="Assets\Models\HoverCar\hover_car_base_color.tex.ini" />
+    <None Include="Assets\Models\HoverCar\hover_car_emissive.tex.ini" />
+    <None Include="Assets\Models\HoverCar\hover_car_height.tex.ini" />
+    <None Include="Assets\Models\HoverCar\hover_car_metallic.tex.ini" />
+    <None Include="Assets\Models\HoverCar\hover_car_normal.tex.ini" />
+    <None Include="Assets\Models\HoverCar\hover_car_roughness.tex.ini" />
+    <None Include="Assets\Models\Mimi\mimi.3d.ini" />
+    <None Include="Assets\Models\Rifle\rifle.3d.ini" />
+    <None Include="Assets\Models\Rifle\rifle_ao.tex.ini" />
+    <None Include="Assets\Models\Rifle\rifle_base_color.tex.ini" />
+    <None Include="Assets\Models\Rifle\rifle_metallic.tex.ini" />
+    <None Include="Assets\Models\Rifle\rifle_normal.tex.ini" />
+    <None Include="Assets\Models\Rifle\rifle_roughness.tex.ini" />
+    <None Include="Assets\Skyboxes\Factory.cube.ini" />
+    <None Include="Assets\Skyboxes\PureSky.cube.ini" />
+    <None Include="Assets\Textures\brick_wall_diff.tex.ini" />
+    <None Include="Assets\Textures\brick_wall_nor.tex.ini" />
+    <None Include="Assets\Textures\brick_wall_spec.tex.ini" />
+    <None Include="Assets\Textures\concrete_diff.tex.ini" />
+    <None Include="Assets\Textures\concrete_nor.tex.ini" />
+    <None Include="Assets\Textures\concrete_spec.tex.ini" />
+    <None Include="Assets\Textures\RustedIron_base_color_PBR.tex.ini" />
+    <None Include="Assets\Textures\RustedIron_metallic_PBR.tex.ini" />
+    <None Include="Assets\Textures\RustedIron_normal_PBR.tex.ini" />
+    <None Include="Assets\Textures\RustedIron_roughness_PBR.tex.ini" />
+    <None Include="Assets\Textures\test_bricks_diff.tex.ini" />
+    <None Include="Assets\Textures\test_bricks_disp.tex.ini" />
+    <None Include="Assets\Textures\test_bricks_height.tex.ini" />
+    <None Include="Assets\Textures\test_bricks_normal.tex.ini" />
+    <None Include="DirectedNodeBase.inl">
+      <FileType>Document</FileType>
+    </None>
+    <ClCompile Include="Cubemap.cpp" />
+    <ClCompile Include="CubemapGLSTBI.cpp" />
+    <ClCompile Include="DirectionalLightComponent.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="FileSTD.cpp" />
+    <ClCompile Include="FlyCamInputComponent.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="FramebufferGLSTBI.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GLCamera.cpp" />
+    <ClCompile Include="GLCamera2.cpp" />
+    <None Include="DFSAlgorithm.inl" />
+    <None Include="GameObject.inl" />
+    <None Include="InputBehaviorPress.inl">
+      <FileType>Text</FileType>
+    </None>
+    <None Include="InputProcessorDeadZone.inl" />
+    <None Include="InputProcessorInverter.inl" />
+    <None Include="InputProcessorNormalizer.inl" />
+    <None Include="MatGLM.inl">
+      <FileType>Text</FileType>
+    </None>
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="ImageRawSTD.cpp" />
+    <ClCompile Include="INIFileMINI.cpp" />
+    <None Include="InputAction.inl">
+      <FileType>Text</FileType>
+    </None>
+    <None Include="InputBinding.inl">
+      <FileType>Text</FileType>
+    </None>
+    <None Include="InputBehaviorHold.inl">
+      <FileType>Text</FileType>
+    </None>
+    <None Include="InputBehaviorMultipress.inl">
+      <FileType>Text</FileType>
+    </None>
+    <ClCompile Include="InputBindingAxesGLFW.cpp" />
+    <ClCompile Include="InputBindingButtonGLFW.cpp" />
+    <ClCompile Include="InputBindingTriggerGLFW.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="MaterialFunctionCodeBuilderGL.cpp" />
+    <ClCompile Include="MaterialGL.cpp" />
+    <ClCompile Include="MatGLM.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="MeshComponent.cpp" />
+    <ClCompile Include="MeshObjectGL.cpp" />
+    <ClCompile Include="MeshRenderComponent.cpp" />
+    <ClCompile Include="PointLightComponent.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="PostProcessFXBloom.cpp" />
+    <ClCompile Include="PostProcessFXSSAO.cpp" />
+    <ClCompile Include="PostProcessRenderComponent.cpp" />
+    <ClCompile Include="PreprocessBRDFIntegrationMapGenerator.cpp" />
+    <ClCompile Include="PreprocessEquirectangularToCubemap.cpp" />
+    <ClCompile Include="PreprocessIrradianceGenerator.cpp" />
+    <ClCompile Include="PreprocessPreFilteredEnvironmentMapGenerator.cpp" />
+    <ClCompile Include="ReflectionProbeComponent.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="RenderPassBackground.cpp" />
+    <ClCompile Include="RenderPassDebug.cpp" />
+    <ClCompile Include="RenderPassDirectionalLightingDeferred.cpp" />
+    <ClCompile Include="RenderPassEmissiveLightingDeferred.cpp" />
+    <ClCompile Include="RenderPassEnvironmentLightingDeferred.cpp" />
+    <ClCompile Include="RenderPassGeometryDeferred.cpp" />
+    <ClCompile Include="RenderPassPointLightingDeferred.cpp" />
+    <ClCompile Include="RenderPassPostProcess.cpp" />
+    <ClCompile Include="RenderPassPostProcessPreLighting.cpp" />
+    <ClCompile Include="RenderPassRenderToScreen.cpp" />
+    <ClCompile Include="RenderPassShadowCast.cpp" />
+    <ClCompile Include="RenderPassSpotLightingDeferred.cpp" />
+    <ClCompile Include="RenderPassSurface.cpp" />
+    <ClCompile Include="RenderPassTranslucent.cpp" />
+    <ClCompile Include="RenderPassUI.cpp" />
+    <ClCompile Include="ScenarioSwitcherComponent.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="ShaderCodeBuilder.cpp" />
+    <ClCompile Include="ShaderCodeBuilderBackgroundGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderBlinnPhongGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderBRDFIntegrationMapGeneratorGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderColorAdditionGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderColorCopyGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderDebugGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderDirectionalLightingDeferredBlinnPhongGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderEmissiveLightingDeferredBlinnPhongGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderEnvironmentLightingDeferredBlinnPhongGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderEquirectangularToCubemapGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderGeometryDeferredBlinnPhongGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderHighPassFilterGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderIrradianceGeneratorGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderOmnidirectionalShadowCastGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderGaussianBlurHorizontalGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderGaussianBlurVerticalGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderPointLightingDeferredBlinnPhongGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderPostProcessGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderPreFilteredEnvironmentMapGeneratorGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderRenderToScreenGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderGouraudGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderPBRGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderPhongGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderShadowCastGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderSpotLightingDeferredBlinnPhongGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderSSAOGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderUnlitGL.cpp" />
+    <ClCompile Include="ShaderCodeBuilderUIGL.cpp" />
+    <ClCompile Include="SpotLightComponent.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="stb_image_write.cpp" />
+    <ClCompile Include="TESTCam.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="TESTComponent.cpp" />
+    <ClCompile Include="TESTComponent2.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TextureGLSTBI.cpp" />
+    <ClCompile Include="TransformComponent.cpp" />
+    <ClCompile Include="VecGLM.cpp" />
+    <None Include="GraphBase.inl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="NodeBase.inl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="SimpleGraph.inl">
+      <FileType>Document</FileType>
+    </None>
+    <ClCompile Include="ImageSTBI.cpp" />
+    <ClCompile Include="InputGLFW.cpp" />
+    <ClCompile Include="IOSTD.cpp" />
+    <ClCompile Include="LogicSTD.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MathGLM.cpp" />
+    <ClCompile Include="ModelAssimp.cpp" />
+    <ClCompile Include="PhysicsBullet.cpp" />
+    <ClCompile Include="RendererGL.cpp" />
+    <ClCompile Include="stb_image.cpp" />
+    <ClCompile Include="TimeSTD.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cache.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Cacheable.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="CacheSTD.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="CameraComponentGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Cubemap.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="CubemapGLSTBI.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="DirectionalLightComponent.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EnvironmentMapComponent.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MeshObject.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MeshObjectGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="PreprocessBRDFIntegrationMapGenerator.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="PreprocessIrradianceGenerator.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="PreprocessPreFilteredEnvironmentMapGenerator.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Saveable.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="FlyCamInputComponent.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Framebuffer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="FramebufferGLSTBI.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ImageRawSTD.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="InputAction.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="CameraComponent.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="CameraSTD.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ContextGLFW.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="GraphAlgorithm.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="DestructibleSubsystemSet.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="DFSAlgorithm.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="DirectedNode.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="DirectedNodeBase.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EdgeBase.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ExecutableSubsystem.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ExecutableSubsystemSet.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="FileSTD.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="FileSystemSetup.h" />
+    <ClInclude Include="GameObject.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="GLCamera.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="GLCamera2.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="GraphBase.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="INIFile.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="INIFileMINI.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="InputActionBase.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="InputBehavior.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="InputBehaviorHold.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="InputBehaviorMultipress.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="InputBehaviorPress.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="InputBinding.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="InputBindingAxesGLFW.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="InputBindingBase.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="InputBindingButtonGLFW.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="InputBindingTriggerGLFW.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="InputComponent.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="InputMappingSetup.h" />
+    <ClInclude Include="InputProcessor.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="InputProcessorDeadZone.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="InputProcessorInverter.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="InputProcessorNormalizer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="LightComponent.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Mat.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MaterialFunctionCodeBuilder.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MaterialFunctionCodeBuilderGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MaterialGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MatSetup.h" />
+    <ClInclude Include="Mesh.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MeshRenderComponent.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="mINI.h" />
+    <ClInclude Include="NodeBase.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="PointLightComponent.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="PostProcessFX.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="PostProcessFXBloom.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="PostProcessFXSSAO.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="PostProcessRenderComponent.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Preprocess.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="PreprocessEquirectangularToCubemap.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ReflectionProbeComponent.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="RenderPass.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="RenderPassBackground.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="RenderPassDebug.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="RenderPassDirectionalLightingDeferred.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="RenderPassEmissiveLightingDeferred.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="RenderPassEnvironmentLightingDeferred.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="RenderPassGeometryDeferred.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="RenderPassPointLightingDeferred.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="RenderPassPostProcess.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="RenderPassPostProcessPreLighting.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="RenderPassRenderToScreen.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="RenderPassShadowCast.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="RenderPassSpotLightingDeferred.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="RenderPassSurface.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="RenderPassTranslucent.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="RenderPassUI.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ScenarioSwitcherComponent.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilder.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderBackgroundGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderBlinnPhongGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderBRDFIntegrationMapGeneratorGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderColorAdditionGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderColorCopyGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderDebugGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderDirectionalLightingDeferredBlinnPhongGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderEmissiveLightingDeferredBlinnPhongGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderEnvironmentLightingDeferredBlinnPhongGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderEquirectangularToCubemapGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderGeometryDeferredBlinnPhongGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderHighPassFilterGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderIrradianceGeneratorGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderOmnidirectionalShadowCastGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderGaussianBlurHorizontalGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderGaussianBlurVerticalGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderPointLightingDeferredBlinnPhongGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderPostProcessGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderPreFilteredEnvironmentMapGeneratorGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderRenderToScreenGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderGouraudGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderPBRGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderPhongGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderShadowCastGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderSpotLightingDeferredBlinnPhongGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderSSAOGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderUnlitGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShaderCodeBuilderUIGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="SimpleGraph.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ImageSTBI.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="InputGLFW.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="IO.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="IOSTD.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="Logic.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="LogicSTD.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MathGLM.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MeshComponent.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ModelAssimp.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="PhysicsBullet.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="RendererGL.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Setup.h" />
+    <ClInclude Include="SpotLightComponent.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="stb_image_write.h" />
+    <ClInclude Include="Subsystem.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TESTCam.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TESTComponent.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TESTComponent2.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TextureGLSTBI.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TimeSTD.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TreeGraph.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <None Include="VecGLM.inl">
+      <SubType>
+      </SubType>
+      <FileType>Text</FileType>
+    </None>
+    <ClInclude Include="Vec.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="VecSetup.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EdgeBase.inl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Engine.inl" />
+    <ClCompile Include="Node.cpp" />
+    <None Include="TreeGraph.inl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{be1142a4-a880-42c0-9f85-c2e8aa00bfe1}</ProjectGuid>
+    <RootNamespace>JustForFun</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)ThirdParty\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)ThirdParty\Lib\$(PlatformTarget)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3d.lib;OpenGL32.Lib;libglew32d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)ThirdParty\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;OpenGL32.Lib;libglew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)ThirdParty\Lib\$(PlatformTarget)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command> xcopy /y "$(ProjectDir)VertexShader.glsl" "$(SolutionDir)$(Platform)\$(Configuration)\"
+ xcopy /y "$(ProjectDir)FragmentShader.glsl" "$(SolutionDir)$(Platform)\$(Configuration)\"
+ xcopy /y "$(ProjectDir)MyTexture.png" "$(SolutionDir)$(Platform)\$(Configuration)\"
+ xcopy /y "$(ProjectDir)MyTexture2.png" "$(SolutionDir)$(Platform)\$(Configuration)\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;JFF_SUPRESS_LOW_PRIORITY_INFO_LOGS;JFF_GL;JFF_GLFW;JFF_BULLET;JFF_LOGIC_STD;JFF_TIME_STD;JFF_IO_STD;JFF_CAMERA_STD;JFF_CACHE_STD;JFF_GLM;JFF_FILE_STD;JFF_INI_FILE_mINI;JFF_STB_IMAGE;JFF_RAW_IMAGE_STD;JFF_MODEL_STD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)ThirdParty\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)ThirdParty\Lib\$(PlatformTarget)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3d.lib;OpenGL32.Lib;libglew32d.lib;assimp-vc142-mtd.lib;zlibstaticd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;JFF_GL;JFF_GLFW;JFF_BULLET;JFF_LOGIC_STD;JFF_TIME_STD;JFF_IO_STD;JFF_CAMERA_STD;JFF_CACHE_STD;JFF_GLM;JFF_FILE_STD;JFF_INI_FILE_mINI;JFF_STB_IMAGE;JFF_RAW_IMAGE_STD;JFF_MODEL_STD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)ThirdParty\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <AdditionalDependencies>glfw3.lib;OpenGL32.Lib;libglew32.lib;assimp-vc142-mt.lib;zlibstatic.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)ThirdParty\Lib\$(PlatformTarget)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)Assets" "$(SolutionDir)$(Platform)\$(Configuration)\Assets\" /E/H/C/I/Y
+xcopy "$(SolutionDir)ThirdParty\Bin\$(Platform)\$(Configuration)" "$(SolutionDir)$(Platform)\$(Configuration)" /E/H/C/I/Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
