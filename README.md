@@ -7,6 +7,6 @@ Doesn't work on your PC? I'm sorry to hear this, but don't worry. I will be happ
 
 ## UML Architecture
 The following diagram shows the simplified structure of the project. Soon I will elaborate all the complete architecture so far.
-[UML general architecture](/JustForFun/UML.png)
+![UML general architecture](/JustForFun/UML.png)
 
 // TODO: Documentation
